@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="edu.washington.jesusm14.pushme.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Push Me!"
+        android:textColor="#FFF4444"/>
+    <Button
+        android:id="@+id/buttonOne"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Push Me!!"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:textColor="#FFFF4444"
+        android:background="#FF99CC00" />
+</RelativeLayout>
